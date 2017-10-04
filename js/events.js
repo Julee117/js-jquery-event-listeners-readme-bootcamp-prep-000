@@ -7,7 +7,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    $('.tasty').append('<img src="https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg">');
+    $('img').addClass('tasty');
   })
 }
 
